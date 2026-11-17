@@ -1,0 +1,25 @@
+# Java / Maven
+backend/target/
+*.jar
+*.class
+
+# Node / Vite
+frontend/node_modules/
+frontend/dist/
+
+# Environment & Secrets
+.env
+*.pem
+*.key
+
+# Terraform & Ansible
+**/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+ansible/*.retry
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
